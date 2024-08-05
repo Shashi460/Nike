@@ -20,8 +20,8 @@ const Nav = () => {
                    </li>
                 ))}
             </ul>
-            <div>
-                <Button label='Sign In / Sign Up' bgColor="coral-red" textColor="white-400"/>
+            <div className='max-lg:w-[70px] h-[30px]'>
+                <Button label='SignIn' bgColor="coral-red" textColor="white-400"/>
             </div>
             <div className="hidden max-lg:block cursor-pointer" >
                 <img src={hamburger} height={25} width={25} />
