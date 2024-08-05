@@ -20,7 +20,7 @@ const Nav = () => {
                    </li>
                 ))}
             </ul>
-            <div className='max-lg:w-[120px] h-[30px] text-sm mb-5'>
+            <div className='max-sm:w-[120px] h-[30px] text-sm mb-5'>
                 <Button label='Sign In' bgColor="coral-red" textColor="white-400"/>
             </div>
             <div className="hidden max-lg:block cursor-pointer" >
